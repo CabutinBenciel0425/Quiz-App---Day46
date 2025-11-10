@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./quiz.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+   <title>Quiz Page</title>
+</head>
+<body>
+   
+   <div class="timer-container">
+      <h1 class="timer">15s</h1>
+   </div>
+
+   <div class="question-number-container">
+      <h3>Question #<div class="questionNum"></div></h3>
+   </div>
+
+   <div class="details-container">
+      <span>Category: <span class="category" style="font-weight: 700">Sports</span></span>
+      <span>Difficulty: <span class="difficulty" style="font-weight: 700">Easy</span></span>
+      <span>Type: <span class="type" style="font-weight: 700">Multiple Choice</span></span>
+   </div>
+   
+   <div class="main-container">
+      <form class="form">
+         <!-- <div class="question-container">
+            <p>
+            What is the most common type of pitch thrown by pitchers in baseball?
+            </p>
+         </div>
+
+         <div class="choices-container">
+            <div class="choice-one-container">
+               <input type="radio" name="choice" id="choice1">
+               <label for="choice1">Fastball</label>
+            </div>
+            
+            <div class="choice-two-container">
+               <input type="radio" name="choice" id="choice2">
+               <label for="choice2">Slowball</label>
+            </div>
+
+            <div class="choice-three-container">
+               <input type="radio" name="choice" id="choice3">
+               <label for="choice3">Screwball</label>
+            </div>
+
+            <div class="choice-four-container">
+               <input type="radio" name="choice" id="choice4">
+               <label for="choice4">Palmball</label>
+            </div>
+         </div> -->
+
+         <button class="submit-answer">Next Question <i class="fa-solid fa-right-long"></i></button>
+      </form>
+   </div>
+
+   <script src="./quiz.js"></script>
+</body>
+</html>

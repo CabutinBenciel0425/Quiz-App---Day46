@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Muli', sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   height: 100vh;
+   overflow: hidden;
+   background-color: #3B9797;
+}
+
+.main-container{
+   background-color: #132440;
+   width: 80%;
+   height: 80%;
+   max-width: 800px;
+   max-height: 750px;
+   font-size: 24px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   color: #fff;
+}
+
+.main-container form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.main-container form input, .main-container form select, .main-container form button{
+   font-size: 20px;
+   border-radius: 10px;
+   padding: 10px 0px;
+   text-align: center;
+}
+
+.main-container form input, .main-container form select{
+   margin-bottom: 20px;
+}
+
+.main-container form input:focus, .main-container form select:focus, .main-container form button:focus{
+   outline: none;
+}
+
+.main-container form button{
+   margin-top: 20px;
+   width: 50%;
+   height: 60px;
+   background-color: #16476A;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   font-size: 28px;
+   transition: transform 0.3s ease;
+}
+
+.main-container form button:active{
+   transform: scale(0.98)
+}
+
+#difficulty{
+   padding: 10px;
+}
